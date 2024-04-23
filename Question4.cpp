@@ -12,7 +12,7 @@ int main()
                 if (cin.fail())
                 {
                         cout << "Sorry, you entered an invalid number, please try again" << endl;
-                        break;
+
                 }
                 else if (number >= 5 && number <= 10)
                 {
@@ -23,8 +23,9 @@ int main()
                 else
                 {
                         cout << "You Entered " << number << ". Please enter a number between 5 and 10. " << endl;
+                        
 
-                        break;
+                        
                 }
         }
         return 0;
