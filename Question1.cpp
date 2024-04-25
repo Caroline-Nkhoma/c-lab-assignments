@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+    /*generates random numbers from 0 to 11 */
  int daysUntilExpiration = time(0);
     srand(time(0));
     daysUntilExpiration = 0 + rand() % 11;

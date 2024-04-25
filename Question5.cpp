@@ -12,6 +12,7 @@ int main(){
                  cin>>select;
     
                   switch(select){
+                    /*calculating the area of a square*/
                       case 1:
                      {
                     double side;
@@ -20,6 +21,7 @@ int main(){
                     cout << "The area of the squire is: " << side * side << endl;
                          break;
                       }
+                      /*calculating the area of a rectangle*/
                       case 2:
                      {
                     double length, width;
@@ -28,6 +30,7 @@ int main(){
                     cout << "The area of the rectangle is: " << length * width << endl;
                          break;
                       }
+                      /*calculating the area of a triangle*/
                        case 3:
                       {
                     double base, height;
@@ -38,6 +41,7 @@ int main(){
                     }
                   
                     default:
+                    /*terminates if the user quits the program*/
                     {
                         cout<<"quit program"<<endl;
                     }

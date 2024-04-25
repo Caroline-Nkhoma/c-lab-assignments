@@ -3,10 +3,11 @@
 #include<ctime>
 using namespace std;
 int main()
+/*code for generating random numbers*/
 {
  int daysUntilExpiration = time(0);
     srand(time(0));
-    daysUntilExpiration = 0 + rand() % 11;
+    daysUntilExpiration = 0 + rand() % 12;
     cout << daysUntilExpiration << endl;
     switch (daysUntilExpiration){
         case 0:
